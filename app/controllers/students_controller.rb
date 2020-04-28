@@ -3,4 +3,8 @@ class StudentsController < ApplicationController
     @students = Student.all
   end
 
+  def new
+    @student = Student.new
+  end
+
 end
